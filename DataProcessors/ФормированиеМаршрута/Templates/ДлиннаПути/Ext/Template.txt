@@ -1,0 +1,82 @@
+﻿<HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<!-- Стартовый набор (   -->
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=9"/>  <!-- Bспользуем IE 9 -->
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru-RU" "type="text/javascript"></script> <!-- Загрузка API yandex  -->
+<!-- Стартовый набор )
+
+<!-- Свои скрипты (   -->
+	
+	<script type="text/javascript">	
+		
+		var myMap;                                                  // создадим голобальную переменную для карты
+		ymaps.ready(CreateMap); 									// выполняем инициализацию полсе загрузки API  
+
+		function CreateMap() {    									// CreateMap Создание объетка карты  
+
+		//отклик готовности 
+		return1c("готов","1");
+		
+		 myMap = new ymaps.Map("YMapsID", {
+	      center: [59.933885,30.322595],
+	      zoom: 12,
+	      // type: "yandex#satellite", 
+	      controls: ["zoomControl", "fullscreenControl"]		 	// добавим стандартное поведения и кнопку полнорежимного просмотра
+	    });
+		
+	    // допиливаем свойства карты
+		
+		// переводим карту в полноразмерный режим
+		myMap.controls.get("fullscreenControl").enterFullscreen();		
+		myMap.controls.get("fullscreenControl").options.visible = false;
+		
+		// привяжем событие щелчка по карте
+		myMap.events.add('click', function (e) {  
+			return1c('ЩелчокПоКарте',e.get('coords'));
+        	myMap.hint.open(e.get('coords'), 'Координаты щелчка переданы на форму');
+    		});
+		
+		// Скрываем хинт при открытии балуна.
+	    myMap.events.add('balloonopen', function (e) {
+	        myMap.hint.close();
+	    });
+		
+		
+		}; 															// CreateMap конец функции 
+	    			
+		function return1c(name,data){ 
+			
+			// вызов обработчика
+			var evt = document.createEventObject();
+			evt.propertyName = name;
+			evt.data = data;
+			evt.cancelBubble = true;
+			evt.returnValue = false;
+
+			document.fireEvent('onclick',evt);
+		
+		};  
+		
+		
+	 </script>
+	 
+<!-- Свои скрипты )  -->
+  
+</HEAD>
+<body>
+
+<div id="YMapsID" style="width: 600px; height: 400px"></div>
+<div id="TEST"/>
+
+</body>
+
+</html>
+
+
+
+

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
+	<ConfigVersions>
+		<Metadata name="Catalog.Водители" id="df02721c-ff51-4be3-b105-2205e1fd2104" configVersion="4885fd77108ff446a8f700b9a7a8da7b00000000"/>
+		<Metadata name="Catalog.Маршруты" id="8a03fdcf-b2ae-4a7b-85a2-f19248f8d7f0" configVersion="51905f2322877540a71e37aa4c7ca89f00000000">
+			<Metadata name="Catalog.Маршруты.TabularSection.ДанныеМаршрута.Attribute.Клиент" id="109af139-e94a-4ee5-a91f-415a4abadbf8"/>
+			<Metadata name="Catalog.Маршруты.Attribute.ВремяФормирования" id="23682807-3d78-4a2a-81e4-452deb3c6139"/>
+			<Metadata name="Catalog.Маршруты.TabularSection.ДанныеМаршрута.Attribute.НомерЗаказа" id="4678e058-f309-4b84-97df-09f35565e6fb"/>
+			<Metadata name="Catalog.Маршруты.TabularSection.ДанныеМаршрута" id="56c9f7ea-ba4a-4d8f-afa7-0f8b396cdc4e"/>
+			<Metadata name="Catalog.Маршруты.Attribute.ДлительностьМаршрута" id="644e702f-f15e-4f39-87a0-32ebdd02ac53"/>
+			<Metadata name="Catalog.Маршруты.TabularSection.ДанныеМаршрута.Attribute.ВесЗаказа" id="6de21376-a482-4918-9fdc-78c13ced67f5"/>
+			<Metadata name="Catalog.Маршруты.Attribute.КоличествоЗаказов" id="9e739c09-07b2-4b87-97cd-2fe8c8ff4a28"/>
+			<Metadata name="Catalog.Маршруты.Attribute.ВремяНачало" id="a56014c8-83b0-4262-90ba-130d13597044"/>
+			<Metadata name="Catalog.Маршруты.TabularSection.ДанныеМаршрута.Attribute.ДатаЗаказа" id="cb2749d1-f1da-4a1e-a416-0d7c99b9e3dc"/>
+			<Metadata name="Catalog.Маршруты.TabularSection.ДанныеМаршрута.Attribute.АдресДоставки" id="e98cbc2f-1123-4dbd-a5b5-92e71c2a2208"/>
+			<Metadata name="Catalog.Маршруты.Attribute.ВремяКонца" id="eafe5d91-fe8d-4814-90e5-9c6be160179b"/>
+		</Metadata>
+		<Metadata name="Catalog.ТранспортныеСредства" id="50b4cd69-ba2a-4d4a-8463-9d6437711e29" configVersion="f77c5953d418a04abf6973dfbfb2c64400000000">
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.ОсновнойВодитель" id="13ddbb6e-d5e9-4522-b2e6-518f0299badd"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.Грузоподъемность" id="832462ab-7a4f-425b-bc79-702851f0d021"/>
+		</Metadata>
+		<Metadata name="CommonForm.ФормаКонстант" id="2ee5c577-d59b-4245-8bf2-4322a1f3713d" configVersion="63b6a49f3b0a7841b0493f38b71b3de000000000"/>
+		<Metadata name="CommonForm.ФормаКонстант.Form" id="2ee5c577-d59b-4245-8bf2-4322a1f3713d.0" configVersion="ad3d225442c80649b2fb0f6e2a93f4dc00000000"/>
+		<Metadata name="CommonModule.API" id="dfd97844-f00c-4ca3-bf97-7b1fbbd20851" configVersion="3ce208a3c8977a45aba38df7627dfdc600000000"/>
+		<Metadata name="CommonModule.API.Module" id="dfd97844-f00c-4ca3-bf97-7b1fbbd20851.0" configVersion="daa294c0f4e9d94d9d8ec1734bd3534a00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="47eb50f2-fe4a-4a33-b2c0-7992ae2c42bf" configVersion="611650e8bcdc084d88592a4d1df2c6e400000000"/>
+		<Metadata name="Constant.APIKeyGoogle" id="58ffd33f-4fef-4d20-9626-4876aca0ae69" configVersion="ca0782cc3da2954f9949b0a7637fe0b700000000"/>
+		<Metadata name="Constant.АдресOMS" id="7cefa380-ceea-4c1d-8283-53bc565ac395" configVersion="041f817f9941a94493ad8b342d37cb9300000000"/>
+		<Metadata name="Constant.Город" id="cd4154c6-9739-4c74-be7d-8ecbce1c1654" configVersion="d2ee6f457479834086a942f881554edc00000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеПример" id="0cf2d20f-e24d-4bf4-8d20-359f7c18497c" configVersion="93163a081c5f93419b62adc073311aa200000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеПример.Form.Форма" id="744c62d3-2daf-48bd-80b5-d677c2c59104" configVersion="5bac26778745a449af8d942ac196e2ba00000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеПример.Form.Форма.Form" id="744c62d3-2daf-48bd-80b5-d677c2c59104.0" configVersion="38b9dd4e03026749bcd02a166222ffcf00000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеПример.Template.МакетГугл" id="91c6dd85-49cd-4535-b8cc-29c98b98b4f7" configVersion="d35bc1f3ae30f541a931581a924411eb00000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеПример.Template.МакетГугл.Template" id="91c6dd85-49cd-4535-b8cc-29c98b98b4f7.0" configVersion="ea26659140b3884bb9608702ea19091900000000"/>
+		<Metadata name="DataProcessor.ФормированиеМаршрута" id="3a43ae96-08c1-466d-8ce8-4873c9e0f96c" configVersion="ce9fb930fbc97f4d9401c2ee5a7884f700000000">
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.СоставЗаказа" id="00e0a50c-24a5-40d9-9c24-77d12de9aa26"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.СоставЗаказа.Attribute.Номенклатура" id="1041868f-8979-429d-9bee-ab0929bbec62"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.Заказы.Attribute.НомерЗаказа" id="136e3b22-76ef-42b1-a8e5-eb39933f6451"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.СписокАдресов" id="20ec2b3c-43dc-459f-8f0f-54a811f6fead"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.НаВыходе" id="29e2aba0-8a30-49d7-accc-ba43548b6fc2"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.СоставЗаказа.Attribute.НомерЗаказа" id="43d2c5e2-e377-4571-8b7a-ab090e1631db"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.НаВыходе.Attribute.Адрес" id="4b898d37-7e29-4d37-b2bc-6e116cfc662d"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.НаВыходе.Attribute.Точка" id="6c4bc5bf-131a-491e-8778-2761bc12af14"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.Заказы.Attribute.Статус" id="731975c9-5dff-4851-8675-af23d802df49"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.Заказы" id="8b6816c5-c751-44cc-9ddd-51b6da2c8e1e"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.СоставЗаказа.Attribute.Количество" id="91898aed-f45f-4bbd-b629-c2d1d79054cc"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.НаВыходе.Attribute.Растояние" id="a85996c8-e4f2-4f25-abae-13dee87bcfd3"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.Заказы.Attribute.ДатаЗаказа" id="af011fb3-5d94-4632-91ef-0754d6407be8"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.Заказы.Attribute.Клиент" id="b81e4975-d841-48e9-945e-2ea12480cfb8"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.Заказы.Attribute.Сформировать" id="c7ecc4eb-2318-4b92-bf29-281978e3947b"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.Заказы.Attribute.Обновить" id="caab0d83-0407-4f07-af85-6c1847a88ea3"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.Заказы.Attribute.АдресДоставки" id="ce5db7d1-abd8-46ae-ad04-22ac4a7cf7bb"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.СписокАдресов.Attribute.Адрес" id="d94b9686-1211-4284-97bf-8767a65a3a25"/>
+			<Metadata name="DataProcessor.ФормированиеМаршрута.TabularSection.СоставЗаказа.Attribute.Вес" id="fe45d73c-85c3-480d-8fa6-9fcdb3f677ba"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ФормированиеМаршрута.Form.ОсновнаяФорма" id="96363e05-44ca-457f-adb8-42368c08b904" configVersion="4a7fb8ca353d65458a801b67d42435c100000000"/>
+		<Metadata name="DataProcessor.ФормированиеМаршрута.Form.ОсновнаяФорма.Form" id="96363e05-44ca-457f-adb8-42368c08b904.0" configVersion="6326d5c158c7724daedf90090a2df15600000000"/>
+		<Metadata name="DataProcessor.ФормированиеМаршрута.Template.ДлиннаПути" id="53297b44-07b1-4f8c-b7de-786b52bf8a63" configVersion="cd91fdc2abd5c34cadb2bbbc0a25ad0b00000000"/>
+		<Metadata name="DataProcessor.ФормированиеМаршрута.Template.ДлиннаПути.Template" id="53297b44-07b1-4f8c-b7de-786b52bf8a63.0" configVersion="85d669806ca50242aaacb2555027b98400000000"/>
+		<Metadata name="DataProcessor.ФормированиеМаршрута.Template.Макет" id="b515092b-05f9-41f4-b59a-be89c7aa2f11" configVersion="ae11c8e44b392f4b93c6d3108c6790be00000000"/>
+		<Metadata name="DataProcessor.ФормированиеМаршрута.Template.Макет.Template" id="b515092b-05f9-41f4-b59a-be89c7aa2f11.0" configVersion="fa618ef6878f9947919b367eb83b635600000000"/>
+		<Metadata name="Document.Заказ" id="ba07654f-6355-48e1-bfbb-98f79983c12e" configVersion="7596cc4e2f6bbf4d9d2b74f9a6acd3e200000000"/>
+		<Metadata name="Document.Заказ.ObjectModule" id="ba07654f-6355-48e1-bfbb-98f79983c12e.0" configVersion="2aa1e8b4ebec7d4685f07d64ea0ec11200000000"/>
+		<Metadata name="Enum.СтатусыЗаказов" id="b86ddb6d-90ad-48d1-8c84-03fee88de118" configVersion="7368e874b9343b4482494c802dda9afb00000000">
+			<Metadata name="Enum.СтатусыЗаказов.EnumValue.Доставлен" id="0dd0fa90-2e0a-45f5-b1fa-ca629c82a468"/>
+			<Metadata name="Enum.СтатусыЗаказов.EnumValue.ВПути" id="832d0ae8-8612-4712-8137-2635f28cf09f"/>
+			<Metadata name="Enum.СтатусыЗаказов.EnumValue.ТребуетсяДоставка" id="854144a9-9579-41b1-b382-bbda195f263a"/>
+			<Metadata name="Enum.СтатусыЗаказов.EnumValue.ДоставкаЗапланирована" id="8f5dd0a9-824b-4b14-aa8d-bbc34e43c4c7"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КоординатыАдресов" id="c792e3a1-258a-441d-bd6f-f5c51dc94c40" configVersion="2589de9bb06a964dab8a935d7a8f9bc500000000">
+			<Metadata name="InformationRegister.КоординатыАдресов.Dimension.АдресДоставки" id="023303cf-d2c5-4b80-9f4e-588c122df7b7"/>
+			<Metadata name="InformationRegister.КоординатыАдресов.Attribute.ПунктАдрес" id="51dfad61-a88d-40e0-b5c0-d0d1b5e56872"/>
+			<Metadata name="InformationRegister.КоординатыАдресов.Resource.Долгота" id="720ae5e4-37bb-420f-9aa2-3963f7223dea"/>
+			<Metadata name="InformationRegister.КоординатыАдресов.Resource.ПунктКод" id="7e936a62-41c7-43d9-abc6-6bfd3e88215b"/>
+			<Metadata name="InformationRegister.КоординатыАдресов.Resource.Широта" id="ced30914-65f2-4404-9946-8938ebedf2bf"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КоординатыАдресов.Help" id="c792e3a1-258a-441d-bd6f-f5c51dc94c40.0" configVersion="09b70b0175bc9141b3085eaea74895a200000000"/>
+		<Metadata name="InformationRegister.КоординатыАдресов.ManagerModule" id="c792e3a1-258a-441d-bd6f-f5c51dc94c40.2" configVersion="b7848e6a2efc9d478dd0cae1b939de3800000000"/>
+		<Metadata name="InformationRegister.КоординатыАдресов.RecordSetModule" id="c792e3a1-258a-441d-bd6f-f5c51dc94c40.1" configVersion="667116402cdc8945891fc549d347756700000000"/>
+		<Metadata name="InformationRegister.РасстоянияАдресов" id="0a615013-26e5-4d4f-bcee-e918f12a8667" configVersion="3bc97f548f31c8409e45d7635f32a18c00000000">
+			<Metadata name="InformationRegister.РасстоянияАдресов.Dimension.NodeTo" id="10c7d4eb-55c4-4eef-980e-875929e7eb11"/>
+			<Metadata name="InformationRegister.РасстоянияАдресов.Resource.Duration" id="a00d0937-12f3-422d-aded-d3b1835f6a8a"/>
+			<Metadata name="InformationRegister.РасстоянияАдресов.Dimension.NodeFrom" id="e43b9266-0b26-4fbb-8ac9-5a501d8aaee6"/>
+			<Metadata name="InformationRegister.РасстоянияАдресов.Resource.Distance" id="f4859e86-174e-46a9-9479-8458fe72382a"/>
+		</Metadata>
+		<Metadata name="InformationRegister.РасстоянияАдресов.Help" id="0a615013-26e5-4d4f-bcee-e918f12a8667.0" configVersion="8824551767aa5a478c40588365bd2e6400000000"/>
+		<Metadata name="InformationRegister.РасстоянияАдресов.ManagerModule" id="0a615013-26e5-4d4f-bcee-e918f12a8667.2" configVersion="050554c3e0ac574187712c498d27eabf00000000"/>
+		<Metadata name="InformationRegister.РасстоянияАдресов.RecordSetModule" id="0a615013-26e5-4d4f-bcee-e918f12a8667.1" configVersion="d374bc0946e89c44abb8cdd10721cb2600000000"/>
+		<Metadata name="InformationRegister.СтатусыЗаказов" id="be2aae95-509a-4b55-823a-ace842d6ef7c" configVersion="1ec85d7282ac924aa29595332b33abca00000000">
+			<Metadata name="InformationRegister.СтатусыЗаказов.Dimension.НомерЗаказа" id="0a1f5788-efb0-4381-ab52-b64fecb51672"/>
+			<Metadata name="InformationRegister.СтатусыЗаказов.Resource.Статус" id="ee417d42-f5e5-4964-95f8-8c147db43744"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="45e86993-7ce1-4e65-9c61-ed4e91c5e9fb" configVersion="6bf44f86359c1546a3a4aa809826f09400000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
